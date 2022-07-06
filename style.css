@@ -1,0 +1,565 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none; }
+
+@font-face {
+  font-family: "Roboto-300";
+  src: url(./fonts/Roboto/Roboto-Light.ttf);
+  font-style: normal;
+  font-weight: normal; }
+@font-face {
+  font-family: "Montserrat-400";
+  src: url(./fonts/Montserrat/static/Montserrat-Regular.ttf);
+  font-style: normal;
+  font-weight: normal; }
+@font-face {
+  font-family: "Montserrat-700";
+  src: url(./fonts/Montserrat/static/Montserrat-Bold.ttf);
+  font-style: normal;
+  font-weight: normal; }
+header {
+  background-image: url(./image/Bitmap.png);
+  width: 100%;
+  height: 100%;
+  background-color: black; }
+  header .header-top {
+    padding: 40px 309px 147px 246px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+    header .header-top .logotip p {
+      font-family: "Montserrat-700";
+      font-size: 20PX;
+      color: #FFFFFF; }
+    header .header-top .log {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; }
+      header .header-top .log .log-in button {
+        width: 90px;
+        height: 36px;
+        border: 2px solid #FFFFFF;
+        border-radius: 40px;
+        background: none;
+        cursor: pointer;
+        font-family: "Montserrat-400";
+        font-size: 14px;
+        color: #FFFFFF; }
+      header .header-top .log .sing-up button {
+        width: 90px;
+        height: 36px;
+        border: 2px solid #FFFFFF;
+        border-radius: 40px;
+        background: none;
+        cursor: pointer;
+        font-family: "Montserrat-400";
+        font-size: 14px;
+        color: #FFFFFF; }
+  header .header-bottom {
+    text-align: center;
+    padding-bottom: 220px; }
+    header .header-bottom h1 {
+      font-family: "Montserrat-700";
+      font-size: 52px;
+      color: #FFFFFF; }
+    header .header-bottom p {
+      margin-top: 28px;
+      font-family: 'Roboto-300';
+      font-size: 24px;
+      color: #FFFFFF; }
+    header .header-bottom button {
+      text-align: center;
+      background: #FF4E50;
+      border-radius: 40px;
+      width: 225px;
+      height: 40px;
+      margin-top: 33px;
+      border: none;
+      color: #FFFFFF;
+      cursor: pointer; }
+
+section {
+  padding: 95px 250px 0 250px; }
+  section h2 {
+    font-family: "Montserrat-700";
+    font-size: 26px;
+    color: #444444;
+    text-align: center; }
+  section .dreamshare {
+    width: 100%;
+    margin-top: 35px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    text-align: left; }
+    section .dreamshare .step1 {
+      width: 32%;
+      height: 400px;
+      background-image: url(./image/Bitmap\ 6.png);
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+      padding-left: 25px;
+      border-radius: 4px; }
+      section .dreamshare .step1 button {
+        margin-top: 219px;
+        background: #FF4E50;
+        border-radius: 40px;
+        width: 70px;
+        height: 20px;
+        border: none;
+        font-family: "Montserrat-400";
+        font-size: 10px;
+        color: #FFFFFF;
+        cursor: pointer; }
+      section .dreamshare .step1 h3 {
+        margin-top: 15px;
+        font-family: "Montserrat-700";
+        color: #FFFFFF;
+        font-size: 24px; }
+      section .dreamshare .step1 p {
+        margin-top: 10px;
+        font-family: "Roboto-300";
+        font-size: 14px;
+        color: #E3E3E3; }
+    section .dreamshare .step2 {
+      width: 32%;
+      height: 400px;
+      background-image: url(./image/Bitmap\ 5.png);
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+      padding-left: 25px;
+      border-radius: 4px; }
+      section .dreamshare .step2 button {
+        margin-top: 255px;
+        background: #FF4E50;
+        border-radius: 40px;
+        width: 70px;
+        height: 20px;
+        border: none;
+        font-family: "Montserrat-400";
+        font-size: 10px;
+        color: #FFFFFF;
+        cursor: pointer; }
+      section .dreamshare .step2 h3 {
+        margin-top: 15px;
+        font-family: "Montserrat-700";
+        color: #FFFFFF;
+        font-size: 24px; }
+      section .dreamshare .step2 p {
+        margin-top: 10px;
+        font-family: "Roboto-300";
+        font-size: 14px;
+        color: #E3E3E3; }
+    section .dreamshare .step3 {
+      width: 32%;
+      height: 400px;
+      background-image: url(./image/Bitmap\ 4.png);
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+      padding-left: 25px;
+      border-radius: 4px; }
+      section .dreamshare .step3 button {
+        margin-top: 219px;
+        background: #FF4E50;
+        border-radius: 40px;
+        width: 70px;
+        height: 20px;
+        border: none;
+        font-family: "Montserrat-400";
+        font-size: 10px;
+        color: #FFFFFF;
+        cursor: pointer; }
+      section .dreamshare .step3 h3 {
+        margin-top: 15px;
+        font-family: "Montserrat-700";
+        color: #FFFFFF;
+        font-size: 24px; }
+      section .dreamshare .step3 p {
+        margin-top: 10px;
+        font-family: "Roboto-300";
+        font-size: 14px;
+        color: #E3E3E3; }
+
+section {
+  text-align: center; }
+  section .partner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-top: 35px;
+    text-align: center; }
+    section .partner .people {
+      width: 220px; }
+      section .partner .people .image {
+        width: 100%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center; }
+      section .partner .people .text {
+        margin-top: 17px;
+        width: 100%;
+        text-align: center; }
+        section .partner .people .text h4 {
+          font-family: "Montserrat-700";
+          font-size: 14px;
+          color: #444444; }
+        section .partner .people .text p {
+          margin-top: 12px;
+          font-family: "roboto-300";
+          font-size: 14px;
+          color: #666666; }
+  section button {
+    margin-top: 36px;
+    background: #FFFFFF;
+    border: 2px solid #FF4E50;
+    border-radius: 40px;
+    width: 180px;
+    height: 40px;
+    font-family: "Montserrat-700";
+    font-size: 14px;
+    color: #FF4E50; }
+
+section {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+  section .holiday1 {
+    margin-top: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+    section .holiday1 .img1 {
+      width: 32%; }
+      section .holiday1 .img1 img {
+        width: 100%; }
+  section .holiday2 {
+    margin-top: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+    section .holiday2 .img21 {
+      width: 32%; }
+      section .holiday2 .img21 img {
+        width: 100%; }
+    section .holiday2 .img22 {
+      width: 66%; }
+      section .holiday2 .img22 img {
+        width: 100%; }
+  section .holiday3 {
+    margin-top: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+    section .holiday3 .img31 {
+      width: 66%; }
+      section .holiday3 .img31 img {
+        width: 100%; }
+    section .holiday3 .img32 {
+      width: 32%; }
+      section .holiday3 .img32 img {
+        width: 100%; }
+
+section p {
+  margin-top: 43px;
+  font-family: "Roboto-300";
+  font-size: 18px;
+  color: #666666; }
+section .search {
+  margin-top: 25px;
+  margin-bottom: 100px; }
+  section .search input {
+    width: 299px;
+    height: 40px;
+    font-family: "Roboto-300";
+    font-size: 14px;
+    border: 1px solid #D4D4D4; }
+  section .search button {
+    margin-top: 0;
+    width: 172px;
+    height: 40px;
+    background: #FF4E50;
+    border-radius: 40px;
+    color: #FFFFFF; }
+
+footer {
+  border-top: 2px solid #FF4E50;
+  padding: 40px 250px;
+  display: grid;
+  grid-template-columns: 3fr 3fr 5fr 1fr; }
+  footer .footer-box {
+    display: grid;
+    grid-template-columns: 1fr; }
+    footer .footer-box h3 {
+      font-family: "Montserrat-400";
+      font-size: 16px;
+      color: #FF4E50; }
+    footer .footer-box h4 {
+      font-family: "Montserrat-700";
+      font-size: 14px;
+      color: #444444; }
+    footer .footer-box p {
+      font-family: "Roboto-300";
+      font-size: 14px;
+      margin-top: 10px;
+      color: #999999; }
+  footer .footer-box-right {
+    text-align: right; }
+    footer .footer-box-right p {
+      font-family: "Montserrat-700";
+      font-size: 10px;
+      color: #CCCCCC; }
+    footer .footer-box-right img {
+      margin-top: 10px; }
+
+@media screen and (max-width: 1200px) {
+  section .dreamshare .step2 button {
+    margin-top: 225px; } }
+@media screen and (max-width: 1180px) {
+  header .header-top {
+    padding: 40px 259px 147px 196px; }
+
+  section {
+    padding: 95px 200px 0 200px; }
+
+  footer {
+    padding: 40px 200px; } }
+@media screen and (max-width: 1150px) {
+  header .header-top {
+    padding: 40px 159px 147px 96px; }
+
+  section {
+    padding: 95px 150px 0 150px; }
+
+  footer {
+    padding: 40px 150px; } }
+@media screen and (max-width: 1000px) {
+  header .header-top {
+    padding: 40px 59px 147px 46px; }
+
+  section {
+    padding: 95px 100px 0 100px; }
+
+  footer {
+    padding: 40px 100px; } }
+@media screen and (max-width: 880px) {
+  header .header-top {
+    padding: 40px 59px 147px 46px; }
+
+  section {
+    padding: 95px 50px 0 50px; }
+
+  footer {
+    padding: 40px 50px; } }
+@media screen and (max-width: 815px) {
+  header .header-top {
+    padding: 40px 9px 147px 6px; }
+
+  section {
+    padding: 95px 0px 0 0px; }
+
+  footer {
+    padding: 40px 10px; } }
+@media screen and (max-width: 768px) {
+  header .header-top {
+    padding: 40px 9px 147px 6px; }
+
+  section {
+    padding: 95px 0px 0 0px; }
+    section .partner {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      padding: 0 150px; }
+
+  footer {
+    padding: 40px 10px; } }
+@media screen and (max-width: 700px) {
+  section {
+    padding: 95px 0px 0 0px; }
+    section .partner {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      padding: 0 100px; }
+
+  section .dreamshare {
+    display: block;
+    padding: 0 200px; }
+    section .dreamshare .step1 {
+      width: 43%; }
+    section .dreamshare .step2 {
+      margin: 20px 0;
+      width: 43%; }
+    section .dreamshare .step3 {
+      width: 43%; } }
+@media screen and (max-width: 600px) {
+  section .dreamshare {
+    display: block;
+    padding: 0 150px; }
+    section .dreamshare .step1 {
+      width: 50%; }
+    section .dreamshare .step2 {
+      margin: 20px 0;
+      width: 50%; }
+    section .dreamshare .step3 {
+      width: 50%; }
+
+  section {
+    padding: 95px 0px 0 0px; }
+    section .partner {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      padding: 0 50px; }
+
+  footer {
+    grid-template-columns: 5fr 3fr 5fr 1fr; } }
+@media screen and (max-width: 500px) {
+  section .dreamshare {
+    display: block;
+    padding: 0 100px; }
+    section .dreamshare .step1 {
+      width: 62%; }
+    section .dreamshare .step2 {
+      margin: 20px 0;
+      width: 62%; }
+    section .dreamshare .step3 {
+      width: 62%; }
+
+  section {
+    padding: 95px 0px 0 0px; }
+    section .partner {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      padding: 0 20px; }
+
+  section .search button {
+    margin-top: 20px;
+    width: 80%; }
+
+  footer {
+    grid-template-columns: 6fr 4fr 2fr 1fr; } }
+@media screen and (max-width: 490px) {
+  section {
+    padding: 95px 0px 0 0px; }
+    section .partner {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      padding: 0 0; }
+
+  header .header-bottom {
+    padding-bottom: 150px; }
+    header .header-bottom h1 {
+      font-size: 40px; }
+    header .header-bottom p {
+      font-size: 18px; } }
+@media screen and (max-width: 460px) {
+  section .partner {
+    display: block;
+    padding: 0 100px; }
+
+  footer {
+    display: block;
+    text-align: center; }
+    footer .footer-box-right {
+      text-align: center; } }
+@media screen and (max-width: 400px) {
+  section .partner {
+    padding: 0px 75px; }
+
+  section .dreamshare {
+    padding: 0 75px; }
+
+  section .dreamshare {
+    display: block;
+    padding: 0 50px; }
+    section .dreamshare .step1 {
+      width: 77%; }
+    section .dreamshare .step2 {
+      margin: 20px 0;
+      width: 77%; }
+    section .dreamshare .step3 {
+      width: 77%; }
+
+  header .header-bottom h1 {
+    font-size: 30px; } }
+@media screen and (max-width: 350px) {
+  header .header-top .logotip p {
+    margin: 100px 0 0 80px; }
+
+  header .header-top .log {
+    margin: 0 0 0 -100px;
+    display: block; }
+
+  section .holiday1 {
+    display: block; }
+    section .holiday1 .img1 {
+      width: 100%; }
+
+  section .holiday2 {
+    display: block; }
+    section .holiday2 .img21 {
+      width: 100%; }
+    section .holiday2 .img22 {
+      width: 100%; }
+
+  section .holiday3 {
+    display: block; }
+    section .holiday3 .img31 {
+      width: 100%; }
+    section .holiday3 .img32 {
+      width: 100%; }
+
+  section .dreamshare {
+    display: block;
+    padding: 0 25px; }
+    section .dreamshare .step1 {
+      width: 83%; }
+    section .dreamshare .step2 {
+      margin: 20px 0;
+      width: 83%; }
+    section .dreamshare .step3 {
+      width: 83%; } }
+@media screen and (max-width: 320px) {
+  body {
+    padding: 10px; }
+    body section h2 {
+      font-size: 20px; }
+    body section .dreamshare {
+      display: block;
+      padding: 0; }
+      body section .dreamshare .step1 {
+        width: 300px; }
+      body section .dreamshare .step2 {
+        margin: 20px 0;
+        width: 300px; }
+      body section .dreamshare .step3 {
+        width: 300px; }
+    body section .partner {
+      padding: 0px 32px; }
+    body header .header-bottom {
+      padding-bottom: 130px; }
+    body section .search input {
+      width: 200px; } }
+
+/*# sourceMappingURL=style.css.map */
