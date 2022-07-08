@@ -43,26 +43,32 @@ header {
                 button {
                     width: 90px;
                     height: 36px;
-                    border: 2px solid #FFFFFF;
-                    border-radius: 40px;
+                    border: none;
                     background: none;
                     cursor: pointer;;
                     font-family: "Montserrat-400";
                     font-size: 14px;
                     color: #FFFFFF;
                 }
+                button:hover {
+                    border: 2px solid #FFFFFF;
+                    border-radius: 40px;
+                }
             }
             .sing-up {
                 button {
                     width: 90px;
                     height: 36px;
-                    border: 2px solid #FFFFFF;
-                    border-radius: 40px;
+                    border: none;
                     background: none;
                     cursor: pointer;
                     font-family: "Montserrat-400";
                     font-size: 14px;
                     color: #FFFFFF;
+                }
+                button:hover {
+                    border: 2px solid #FFFFFF;
+                    border-radius: 40px;
                 }
             }
         }
@@ -106,7 +112,7 @@ section {
         width: 100%;
         margin-top: 35px;
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         text-align: left;
         .step1 {
             width: 32%;
@@ -139,7 +145,6 @@ section {
                 font-size: 14px;
                 color: #E3E3E3;
             }
-
         }
         .step2 {
             width: 32%;
@@ -238,7 +243,6 @@ section {
                     color:  #666666;
                 }
             }
-            
         }
     }
     button {
@@ -251,18 +255,57 @@ section {
         font-family: "Montserrat-700";
         font-size: 14px;
         color: #FF4E50;
+        cursor: pointer;
     }
 }
 section {
     box-sizing: border-box;
     .holiday1 {
-        margin-top: 20px;
+        margin-top: 35px;
         display: flex;
         justify-content: space-between;
         .img1 {
             width: 32%;
-            img {
-                width: 100%;
+            height: 301px;
+            background-image: url(./image/Bitmap\ 7.png);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 4px;
+            h2 {
+                font-size: 22px;
+                font-family: 'Montserrat-700';
+                color: #FFFFFF;
+            }
+        }
+        .img2 {
+            width: 32%;
+            height: 301px;
+            background-image: url(./image/Bitmap\ 8.png);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 4px;
+            h2 {
+                
+                font-size: 22px;
+                font-family: 'Montserrat-700';
+                color: #FFFFFF;
+            }
+        }
+        .img3 {
+            width: 32%;
+            height: 301px;
+            background-image: url(./image/Bitmap\ 9.png);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 4px;
+            h2 {
+                
+                font-size: 22px;
+                font-family: 'Montserrat-700';
+                color: #FFFFFF;
             }
         }
     }
@@ -272,14 +315,31 @@ section {
         justify-content: space-between;
         .img21 {
             width: 32%;
-            img {
-                width: 100%;
+            height: 310px;
+            background-image: url(./image/Bitmap\ 10.png);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 4px;
+            h2 {
+                font-size: 22px;
+                font-family: 'Montserrat-700';
+                color: #FFFFFF;
             }
         }
         .img22 {
             width: 66%;
-            img {
-                width: 100%;
+            height: 310px;
+            background-image: url(./image/Bitmap\ 11.png);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 4px;
+            h2 {
+                
+                font-size: 22px;
+                font-family: 'Montserrat-700';
+                color: #FFFFFF;
             }
         }
     }
@@ -289,14 +349,33 @@ section {
         justify-content: space-between;
         .img31 {
             width: 66%;
-            img {
-                width: 100%;
+            height: 310px;
+            background-image: url(./image/Bitmap\ 12.png);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 4px;
+            h2 {
+                
+                font-size: 22px;
+                font-family: 'Montserrat-700';
+                color: #FFFFFF;
             }
         }
         .img32 {
             width: 32%;
-            img {
-                width: 100%;
+            height: 301px;
+            height: 310px;
+            background-image: url(./image/Bitmap\ 13.png);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 4px;
+            h2 {
+                
+                font-size: 22px;
+                font-family: 'Montserrat-700';
+                color: #FFFFFF;
             }
         }
     }
@@ -589,19 +668,31 @@ footer {
         margin: 0 0 0 -100px;
         display: block;
     }
+    section {
+        padding: 0 10px;
+    }
     section .holiday1 {
         display: block;
-        .img1 { width: 100%;}
+        .img1 { width: 300px;
+            height: 120px;}
+        .img2 { width: 300px;
+            height: 120px;}
+        .img3 { width: 300px;
+            height: 120px;}
     }
     section .holiday2 {
         display: block;
-        .img21 { width: 100%;}
-        .img22 { width: 100%;}
+        .img21 { width: 300px;
+            height: 120px;}
+        .img22 { width: 300px;
+            height: 120px;}
     }
     section .holiday3 {
         display: block;
-        .img31 { width: 100%;}
-        .img32 { width: 100%;}
+        .img31 { width: 300px;
+            height: 120px;}
+        .img32 { width: 300px;
+            height: 120px;}
     }
     section .dreamshare {
         display: block;
@@ -620,7 +711,6 @@ footer {
 }
 @media screen and (max-width:320px) {
     body {
-        padding: 10px;
         section h2 {
             font-size: 20px;
         }
